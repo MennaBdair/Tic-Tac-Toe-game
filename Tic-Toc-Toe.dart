@@ -98,6 +98,5 @@ String winfun(List v) {
 }
 
 bool cheakRange(var ch) {
-  if (ch < 1 || ch > 9) return true;
-  return false;
+ return ch<1 ||ch>9;
 }
